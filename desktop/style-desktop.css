@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  text-align: center;
+  margin: auto 0;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  font-style: normal;
+  line-height: 1.65;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.5;
+  color: #25a2c3;
+}
+.logo {
+  background-color: black;
+  padding: 20px;
+  text-align: left;
+}
+.logo img {
+  width: 10%;
+}
+.partiamo {
+  background-image: url(../S1-L5/Esercizio/images/banner.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 84px 190px;
+}
+.partiamo button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  border-color: #f04c2f;
+  border-radius: 5px;
+  padding: 0.8em;
+}
+.first-section,
+.fourth-section {
+  padding: 48px;
+}
+.circle {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+.circle img {
+  width: 100%;
+}
+.red-section {
+  background-color: #f04c2f;
+  padding: 50px 10px;
+}
+.red-section h2 {
+  color: white;
+}
+.red-section p {
+  color: white;
+}
+.italic {
+  font-style: italic;
+}
+.image-section {
+  margin: 25px;
+  border-style: solid;
+  border-color: #dee1e3;
+  border-radius: 6px;
+}
+
+.image-section img {
+  width: 100%;
+}
+.image-section p {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding: 0px 8px;
+}
+
+.image-section h2 {
+  margin-bottom: 0;
+}
+footer {
+  background-color: #25a2c3;
+  color: white;
+  padding: 20px;
+}
+footer h2 {
+  color: white;
+}
+hr {
+  width: 145px;
+}
+i {
+  padding: 4px;
+}
+footer a {
+  color: white;
+}
+.parent {
+  border: 1px;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  border: 1px;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+.child img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
