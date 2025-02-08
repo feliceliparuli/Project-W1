@@ -4,7 +4,6 @@ body {
   margin: auto 0;
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
-  font-size: 1.2rem;
   font-style: normal;
   line-height: 1.65;
 }
@@ -73,14 +72,17 @@ h2 {
   font-style: italic;
 }
 .image-section {
-  margin: 25px;
+  margin: 20px;
   border-style: solid;
   border-color: #dee1e3;
   border-radius: 6px;
+  width: 30%;
+  display: inline-block;
 }
 
 .image-section img {
   width: 100%;
+  height: 260px;
 }
 .image-section p {
   margin-top: 0;
@@ -116,9 +118,10 @@ footer a {
 }
 .child {
   display: inline-block;
-  border: 1px;
-  padding: 1rem 1rem;
   vertical-align: middle;
+  width: 38%;
+
+  text-align: left;
 }
 .child img {
   border-radius: 50%;
